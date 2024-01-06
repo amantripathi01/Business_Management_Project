@@ -44,7 +44,4 @@ public class Product
 		return "Product [pid=" + pid + ", pname=" + pname + ", pprice=" + pprice + ", pdescription=" + pdescription
 				+ "]";
 	}
-
-
-
 }
