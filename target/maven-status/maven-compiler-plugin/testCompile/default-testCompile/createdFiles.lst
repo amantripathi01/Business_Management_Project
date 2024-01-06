@@ -1,0 +1,17 @@
+com\business\entities\Admin_setAdminId_a83a201657_Test.class
+com\business\entities\Orders_getoId_0c6e105fbb_Test.class
+com\business\entities\OrdersTest.class
+com\business\entities\Admin_getAdminName_6dc55da125_Test.class
+com\business\entities\Admin_getAdminPassword_0e8a55cd7c_Test.class
+com\business\entities\Admin.class
+com\business\entities\Admin_getAdminEmail_d02ae8178d_Test.class
+com\business\entities\AdminTest.class
+com\business\entities\Admin_getAdminId_bcb52b5aa3_Test.class
+com\business\entities\Orders_setoId_10b5d80784_Test.class
+com\business\entities\Test.class
+com\business\entities\Orders_setOrderDate_f05b775bcf_Test.class
+com\business\entities\Admin_getAdminNumber_5a70a34bd3_Test.class
+com\business\entities\Admin_setAdminEmail_de656ae2b5_Test.class
+com\business\entities\Orders_setoName_114bba4e2d_Test.class
+com\business\entities\Before.class
+com\business\entities\Orders_getOrderDate_c032551e3e_Test.class

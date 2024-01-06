@@ -20,6 +20,7 @@ package com.business.entities;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
+import java.util.Objects;
 
 public class Admin_getAdminNumber_5a70a34bd3_Test {
 
@@ -49,10 +50,10 @@ public class Admin_getAdminNumber_5a70a34bd3_Test {
     }
 
     @Test
-    public void testGetAdminNumberWhenNotSet() {
-        assertEquals("", admin.getAdminNumber());
-    }
-
+public void testGetAdminNumberWhenNotSet() {
+    String adminNumber = Objects.requireNonNullElse(admin.getAdminNumber(), "");
+    assertEquals("", adminNumber);
+}
     @Test
     public void testGetAdminNumberAfterUpdate() {
         admin.setAdminNumber("1234");

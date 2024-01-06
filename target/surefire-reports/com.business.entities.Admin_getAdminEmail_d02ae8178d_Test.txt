@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.business.entities.Admin_getAdminEmail_d02ae8178d_Test
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in com.business.entities.Admin_getAdminEmail_d02ae8178d_Test

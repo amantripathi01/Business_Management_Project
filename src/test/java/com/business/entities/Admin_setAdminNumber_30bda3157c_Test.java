@@ -38,9 +38,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class AdminTest {
-
     private Admin admin;
-
     @BeforeEach
     void setUp() {
         admin = new Admin();

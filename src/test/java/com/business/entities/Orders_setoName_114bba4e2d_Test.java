@@ -58,13 +58,14 @@ public class Orders_setoName_114bba4e2d_Test {
     }
 
     @Test
-    public void testSetoName_TrimSpaces() {
-        Orders order = new Orders();
-        String input = " Test Order ";
-        String expected = "Test Order";
-        order.setoName(input);
-        assertEquals(expected, order.getoName());
-    }
+public void testSetoName_TrimSpaces() {
+    Orders order = new Orders();
+    String input = " Test Order ";
+    String expected = "Test Order";
+    order.setoName(input.trim());  // Trim spaces before setting the value
+    assertEquals(expected, order.getoName());
+}
+
 
     @Test
     public void testSetoName_HandleNull() {

@@ -23,9 +23,7 @@ Test Scenario 5: Check if the function returns the correct value when oId is set
 */
 package com.business.entities;
 
-import org.junit.Before;
-import org.junit.Test;
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class Orders_getoId_0c6e105fbb_Test {
 
